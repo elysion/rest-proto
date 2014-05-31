@@ -1,0 +1,32 @@
+{
+    "email": {
+        "type": "String"
+    },
+    "emailVerificationCode": {
+        "type": "String"
+    },
+    "emailVerified": {
+        "type": "Boolean"
+    },
+    "hash": {
+        "type": "String"
+    },
+    "salt": {
+        "type": "String"
+    },
+    "user": {
+        "type": "ObjectId",
+        "referencedCollection": "user"
+    },
+    "modified": {
+        "type": "Date"
+    },
+    "_plugins": [
+        {
+            "name": "passport-local-mongoose",
+            "pluginParameters": {
+                "usernameField": "email"
+            }
+        }
+    ]
+}

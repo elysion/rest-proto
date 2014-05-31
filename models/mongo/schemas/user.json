@@ -1,0 +1,38 @@
+{
+    "firstname": {
+        "type": "String"
+    },
+    "lastname": {
+        "type": "String"
+    },
+    "email": {
+        "type": "String"
+    },
+    "phone": {
+        "type": "String"
+    },
+    "created": {
+        "type": "Date"
+    },
+    "modified": {
+        "type": "Date"
+    },
+    "isActive": {
+        "type": "Boolean"
+    },
+    "_plugins": [
+        {
+            "name": "mongoose-text-search"
+        }
+    ],
+    "_initialization": [
+        {
+            "function": "index",
+            "value": {
+                "firstname": "text",
+                "lastname": "text",
+                "email": "text"
+            }
+        }
+    ]
+}

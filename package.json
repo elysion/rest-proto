@@ -1,0 +1,52 @@
+{
+    "name": "REST-proto",
+    "preferGlobal": false,
+    "version": "0.0.1",
+    "private": true,
+    "author": "Miko Kiiski",
+    "description": "REST backend for rapid prototyping",
+    "contributors": [
+        {
+            "name": "Miko Kiiski",
+            "email": "miko@app.com"
+        }
+    ],
+    "scripts": {
+        "start": "node app.js",
+        "repair": "node scripts/repair-mongodb.js"
+    },
+    "main": "app.js",
+    "dependencies": {
+        "underscore": "1.4.x",
+        "express": "3.0.x",
+        "path": "x",
+        "handlebars": "1.0.x",
+        "mongoose": "3.6.x",
+        "mongoose-text-search": "0.0.x",
+        "passport": "0.1.x",
+        "passport-local-mongoose": "0.2.x",
+        "passport-local": "0.1.x",
+        "node-uuid": "1.4.x",
+        "mongoose-dbref": "0.0.2",
+        "node-mandrill": "1.0.x",
+        "process": "0.5.x",
+        "async": "0.2.x"
+    },
+    "devDependencies": {
+        "mocha": "0.5.x",
+        "zombie": "1.4.x",
+        "expect.js": "0.2.x"
+    },
+    "config": {
+        "restPort": 3000,
+        "folders": {
+            "templates": "/templates"
+        },
+        "templateEngine": "hbs",
+        "principalModel": "principal"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10.0"
+    }
+}

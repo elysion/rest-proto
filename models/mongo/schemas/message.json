@@ -1,0 +1,19 @@
+{
+    "from": {
+        "type": "ObjectId",
+        "referencedCollection": "user"
+    },
+    "to": {
+        "type": "ObjectId",
+        "referencedCollection": "user"
+    },
+    "title": {
+        "type": "String"
+    },
+    "content": {
+        "type": "String"
+    },
+    "sent": {
+        "type": "Date"
+    }
+}
