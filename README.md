@@ -15,8 +15,7 @@ format of the resource documents and thus the implementation is not purely RESTf
 
 The backend was originally implemented as a part of http://http://beatsy.co. Many thanks to Anssi Uimonen for allowing
 us to open source the project! The original implementation team consisted of: Anssi Uimonen (@anssiuimonen),
-Viljami Peltola (@viljami), Miko Kiiski (@elysion), Joni Saarela (@Jonzki), William Coates (@williamcoates)
-and Hung Ho Ngoc (@bcp1985).
+Viljami Peltola (@viljami), Miko Kiiski (@elysion) and Joni Saarela (@Jonzki).
 
 ## TODO
 
